@@ -1,0 +1,10 @@
+# Ignore arquivos compilados e diretórios de build
+/build/
+/dist/
+# Ignore todos os arquivos .jar, exceto aqueles que você deseja controlar no Git
+*.jar
+# Exceção para bibliotecas específicas (se necessário)
+!src/bibliotecas/
+# Ignore arquivos de configuração locais do NetBeans
+nbproject/private/
+*.jar filter=lfs diff=lfs merge=lfs -text
